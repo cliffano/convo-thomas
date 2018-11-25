@@ -1,0 +1,63 @@
+info:
+  version: 0.0.1
+  title: thomas-facts
+  description: Convo specification for Thomas The Tank Engine Facts
+  license:
+    name: MIT
+  contact:
+    name: Cliffano Subagio
+    url: http://blog.cliffano.com
+    email: blah@cliffano.com
+  primary_language: en
+  timezone: Australia/Sydney
+middlewares:
+agents:
+  dialogflow:
+    project_id: convo-thomas
+conversations:
+  greetings:
+    replies:
+      en:
+        - Hello, I am Thomas the Tank Engine Facts application.
+        - Ask me questions about the friendly engines from Sodor island.
+      de:
+        - Guten Tag, ich bin Thomas, die Tank Engine Facts-Anwendung.
+        - Fragen Sie mich nach den freundlichen Zügen von der Insel Sodor.
+      id:
+        - Halo, saya aplikasi fakta Thomas the Tank Engine.
+        - Silahkan tanya saya tentang kereta-kereta bersahabat dari pulau Sodor.
+      ja:
+        - こんにちは、私はトーマス・タンク・エンジン事実のアプリケーションです。
+        - ソドー島のフレンドリーなエンジンについて質問してください。
+  unknowns:
+    replies:
+      en:
+        - Sorry, I do not understand what you just said.
+        - Could you perhaps say that again?
+      de:
+        - Entschuldigung, ich verstehe nicht, was du gesagt hast.
+        - Könntest du das Bitte wiederholen?
+      id:
+        - Maaf, saya tidak mengerti yang anda katakan.
+        - Bisa tolong diulang?
+      ja:
+        - すみません理解不能です
+        - おそらくそれをもう一度言うことができますか?
+  queries:
+  {{#queries}}
+    - name: {{name}}
+      messages:
+      {{#messages}}
+        {{locale}}:
+        {{#texts}}
+          - {{&.}}
+        {{/texts}}
+      {{/messages}}
+      replies:
+      {{#replies}}
+        {{locale}}:
+        {{#texts}}
+          - {{&.}}
+        {{/texts}}
+      {{/replies}}
+  {{/queries}}

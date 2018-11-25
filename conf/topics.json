@@ -1,0 +1,156 @@
+{
+  "builder": {
+    "dbpedia": {
+      "property": "http://dbpedia.org/property/builder"
+    },
+    "convo": {
+      "queries": {
+        "messages": {
+          "en": [
+            "Who built {{name}}?"
+          ]
+        },
+        "replies": {
+          "en": [
+            "{{name}} was built by {{builder}}."
+          ]
+        }
+      }
+    }
+  },
+  "creator": {
+    "dbpedia": {
+      "property": "http://dbpedia.org/ontology/creator"
+    },
+    "convo": {
+      "queries": {
+        "messages": {
+          "en": [
+            "Who created {{name}}?"
+          ]
+        },
+        "replies": {
+          "en": [
+            "{{name}} was created by {{creator}}"
+          ]
+        }
+      }
+    }
+  },
+  "description": {
+    "dbpedia": {
+      "property": "http://dbpedia.org/ontology/abstract"
+    },
+    "convo": {
+      "queries": {
+        "messages": {
+          "en": [
+            "Who is {{name}}?",
+            "Tell me more about {{name}}?"
+          ]
+        },
+        "replies": {
+          "en": [
+            "Here is a short description about {{name}}. {{description}}"
+          ]
+        }
+      }
+    }
+  },
+  "designer": {
+    "dbpedia": {
+      "property": "http://dbpedia.org/property/designer"
+    },
+    "convo": {
+      "queries": {
+        "messages": {
+          "en": [
+            "Who designed {{name}}?"
+          ]
+        },
+        "replies": {
+          "en": [
+            "{{name}} was designed by {{designer}}."
+          ]
+        }
+      }
+    }
+  },
+  "firstAppearance": {
+    "dbpedia": {
+      "property": "http://dbpedia.org/ontology/firstAppearance"
+    },
+    "convo": {
+      "queries": {
+        "messages": {
+          "en": [
+            "When was {{name}} first appearance?"
+          ]
+        },
+        "replies": {
+          "en": [
+            "{{name}} first appeared in {{firstAppearance}}"
+          ]
+        }
+      }
+    }
+  },
+  "label": {
+    "dbpedia": {
+      "property": "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "convo": {
+      "queries": {
+        "messages": {
+          "en": [
+            "Who is {{name}} also known as?"
+          ]
+        },
+        "replies": {
+          "en": [
+            "{{name}} is also known as {{label}}."
+          ]
+        }
+      }
+    }
+  },
+  "number": {
+    "dbpedia": {
+      "property": "http://dbpedia.org/property/data"
+    },
+    "convo": {
+      "queries": {
+        "messages": {
+          "en": [
+            "What is {{name}}'s number?",
+            "What number is {{name}}?"
+          ],
+          "de": [
+            "Wie ist die Nummer von {{name}}?"
+          ],
+          "id": [
+            "Berapa nomor {{name}}?"
+          ],
+          "ja": [
+            "{{name}}番号とは何ですか?"
+          ]
+        },
+        "replies": {
+          "en": [
+            "{{name}}'s number is {{number}}.",
+            "{{name}} is number {{number}}."
+          ],
+          "de": [
+            "{{name}}-Nummer ist {{number}}"
+          ],
+          "id": [
+            "{{name}} memiliki nomor {{number}}"
+          ],
+          "ja": [
+            "{{name}}番号は{{number}}"
+          ]
+        }
+      }
+    }
+  }
+}
