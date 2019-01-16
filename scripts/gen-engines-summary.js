@@ -6,7 +6,7 @@ const RdfXmlParser = require('rdf-parser-rdfxml');
 const rdfParser = new RdfXmlParser();
 const topics = require('../conf/topics');
 const enginesDir = './stage/data/engines/';
-const enginesFile = p.join('.', 'generated', 'engines.json');
+const enginesFile = p.join('.', 'generated', 'engines-summary.json');
 
 genEngines(enginesDir);
 

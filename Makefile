@@ -15,8 +15,8 @@ lint:
 
 config: stage
 	mkdir -p generated
-	scripts/fetch-dbpedia.js
-	scripts/gen-engines.js
+	scripts/fetch-dbpedia-resources.js
+	scripts/gen-engines-summary.js
 	scripts/gen-mustache-view.js
 	mustache generated/mustache-view.json specifications/convo-thomas-template.mustache > specifications/convo-thomas.yaml
 

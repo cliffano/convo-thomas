@@ -2,7 +2,7 @@
 const fs = require('fs');
 const Mustache = require('mustache');
 const p = require('path');
-const engines = require('../generated/engines');
+const engines = require('../generated/engines-summary');
 const topics = require('../conf/topics');
 const viewFile = p.join('generated', 'mustache-view.json');
 
