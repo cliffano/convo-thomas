@@ -17,8 +17,8 @@ config: stage
 	mkdir -p generated
 	scripts/fetch-dbpedia.js
 	scripts/gen-engines.js
-	scripts/gen-view.js
-	mustache generated/convo-thomas-view.json specifications/convo-thomas.mustache > specifications/convo-thomas.yaml
+	scripts/gen-mustache-view.js
+	mustache generated/mustache-view.json specifications/convo-thomas-template.mustache > specifications/convo-thomas.yaml
 
 build:
 	mkdir -p generated/dialogflow-agent

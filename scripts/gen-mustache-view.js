@@ -4,7 +4,7 @@ const Mustache = require('mustache');
 const p = require('path');
 const engines = require('../generated/engines');
 const topics = require('../conf/topics');
-const viewFile = p.join('generated', 'convo-thomas-view.json');
+const viewFile = p.join('generated', 'mustache-view.json');
 
 genView();
 
