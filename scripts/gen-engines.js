@@ -77,7 +77,6 @@ function rdfTriplesToEngineFacts(triples) {
       }
     });
   });
-  console.log(facts.label)
   let name = facts.label[0].split(' ')[0];
   facts.name = name;
   return facts;
