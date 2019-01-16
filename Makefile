@@ -1,4 +1,4 @@
-ci: clean lint config build
+ci: clean deps lint config build
 
 clean:
 	rm -rf generated stage
