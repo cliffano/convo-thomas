@@ -3,16 +3,19 @@ ci: clean lint config build
 clean:
 	rm -rf generated stage
 
+stage:
+	mkdir -p stage/data/engines/
+
 deps:
-	npm install async rdf-parser-rdfxml
+	npm install async rdf-parser-rdfxml wget-improved
 	npm install -g mustache yaml-lint yo
 
 lint:
 	shellcheck scripts/*.sh
 
-config:
+config: stage
 	mkdir -p generated
-	scripts/fetch-dbpedia.sh
+	scripts/fetch-dbpedia.js
 	scripts/gen-engines.js
 	scripts/gen-view.js
 	mustache generated/convo-thomas-view.json specifications/convo-thomas.mustache > specifications/convo-thomas.yaml
@@ -25,4 +28,4 @@ package:
 	mkdir -p stage
 	cd generated/dialogflow-agent && zip ../../stage/convo-thomas-dialogflow-agent.zip -r .
 
-.PHONY: ci clean deps lint config build package
+.PHONY: ci clean deps lint config build package stage
