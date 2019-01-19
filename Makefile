@@ -8,7 +8,7 @@ stage:
 
 deps:
 	npm install async rdf-parser-rdfxml wget-improved
-	npm install -g jshint mustache yaml-lint yo
+	npm install -g generator-convo jshint mustache yaml-lint yo
 
 lint:
 	jshint scripts/*.js
