@@ -23,7 +23,7 @@ build:
 	mkdir -p generated/dialogflow-agent
 	cd generated/dialogflow-agent && yo convo dialogflow-agent ../../conf/env.yaml ../../specifications/convo-thomas.yaml --force
 
-package: stage
+package: stage build
 	cd generated/dialogflow-agent/ && zip ../../stage/convo-thomas-dialogflow-agent.zip -r .
 
 publish:
@@ -31,4 +31,4 @@ publish:
 	cd stage/dialogflow-agent/ && unzip ../convo-thomas-dialogflow-agent.zip
 	dialogflow-cli import --credentials ./conf/credentials.json stage/dialogflow-agent/
 
-.PHONY: ci clean deps lint config build package stage
+.PHONY: ci clean deps lint config build package stage publish
