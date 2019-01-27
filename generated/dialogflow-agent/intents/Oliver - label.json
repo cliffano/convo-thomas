@@ -1,0 +1,37 @@
+{
+  "name": "Oliver - label",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Oliver is also known as Oliver the Great Western Engine."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

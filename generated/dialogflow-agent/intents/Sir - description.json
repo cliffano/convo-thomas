@@ -1,0 +1,37 @@
+{
+  "name": "Sir - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about Sir. Sir Handel is a fictional steam locomotive from The Railway Series children&#39;s books by the Rev. W. Awdry and its spin-off TV series, Thomas &amp; Friends. Sir Handel lives and works on the Skarloey Railway on the Island of Sodor as Engine No.3. Sir Handel is named after the owner of the Skarloey Railway, Sir Handel Brown."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

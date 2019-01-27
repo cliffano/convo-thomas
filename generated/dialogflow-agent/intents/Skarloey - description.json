@@ -1,0 +1,37 @@
+{
+  "name": "Skarloey - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about Skarloey. Skarloey is a fictional locomotive from The Railway Series by Rev. W. Awdry. He is one of the oldest engines on the Island of Sodor. Skarloey lives and works on the Skarloey Railway as Engine No.1."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

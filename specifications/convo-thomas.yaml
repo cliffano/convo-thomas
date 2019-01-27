@@ -185,7 +185,7 @@ conversations:
           - Who created Edward?
       replies:
         en:
-          - Edward was created by Wilbert Awdry,Christopher Awdry
+          - Edward was created by Christopher Awdry,Wilbert Awdry
     - name: Edward - description
       messages:
         en:
@@ -207,7 +207,7 @@ conversations:
           - When was Edward first appearance?
       replies:
         en:
-          - Edward first appeared in &quot;Edward &amp; Gordon&quot; (Thomas &amp; Friends),The Three Railway Engines(The Railway Series)
+          - Edward first appeared in The Three Railway Engines(The Railway Series),&quot;Edward &amp; Gordon&quot; (Thomas &amp; Friends)
     - name: Edward - label
       messages:
         en:
@@ -228,14 +228,14 @@ conversations:
           - Edward番号とは何ですか?
       replies:
         en:
-          - Edward's number is 2,Blue.
-          - Edward is number 2,Blue.
+          - Edward's number is Blue,2.
+          - Edward is number Blue,2.
         de:
-          - Edward-Nummer ist 2,Blue
+          - Edward-Nummer ist Blue,2
         id:
-          - Edward memiliki nomor 2,Blue
+          - Edward memiliki nomor Blue,2
         ja:
-          - Edward番号は2,Blue
+          - Edward番号はBlue,2
     - name: Emily - builder
       messages:
         en:
@@ -463,7 +463,7 @@ conversations:
           - When was Henry first appearance?
       replies:
         en:
-          - Henry first appeared in The Three Railway Engines(The Railway Series),&quot;The Sad Story of Henry&quot; (Thomas and Friends)
+          - Henry first appeared in &quot;The Sad Story of Henry&quot; (Thomas and Friends),The Three Railway Engines(The Railway Series)
     - name: Henry - label
       messages:
         en:
@@ -527,7 +527,7 @@ conversations:
           - When was James first appearance?
       replies:
         en:
-          - James first appeared in Thomas the Tank Engine(The Railway Series),&quot;Thomas &amp; the Breakdown Train&quot; (Thomas and Friends)
+          - James first appeared in &quot;Thomas &amp; the Breakdown Train&quot; (Thomas and Friends),Thomas the Tank Engine(The Railway Series)
     - name: James - label
       messages:
         en:
@@ -697,7 +697,7 @@ conversations:
           - Who created Percy?
       replies:
         en:
-          - Percy was created by Christopher Awdry,Wilbert Awdry
+          - Percy was created by Wilbert Awdry,Christopher Awdry
     - name: Percy - description
       messages:
         en:
@@ -847,7 +847,7 @@ conversations:
           - When was Rheneas first appearance?
       replies:
         en:
-          - Rheneas first appeared in &quot;Four Little Engines&quot; (Thomas &amp; Friends),Four Little Engines(The Railway Series)
+          - Rheneas first appeared in Four Little Engines(The Railway Series),&quot;Four Little Engines&quot; (Thomas &amp; Friends)
     - name: Rheneas - label
       messages:
         en:
@@ -1145,7 +1145,7 @@ conversations:
           - Who created Thomas?
       replies:
         en:
-          - Thomas was created by Wilbert Awdry,Christopher Awdry
+          - Thomas was created by Christopher Awdry,Wilbert Awdry
     - name: Thomas - description
       messages:
         en:
@@ -1167,7 +1167,7 @@ conversations:
           - When was Thomas first appearance?
       replies:
         en:
-          - Thomas first appeared in Thomas the Tank Engine(The Railway Series),&quot;Thomas &amp; Gordon&quot; (Thomas &amp; Friends)
+          - Thomas first appeared in &quot;Thomas &amp; Gordon&quot; (Thomas &amp; Friends),Thomas the Tank Engine(The Railway Series)
     - name: Thomas - label
       messages:
         en:

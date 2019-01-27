@@ -1,0 +1,86 @@
+{
+  "name": "Welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+      
+        {
+          "type": "simple_response",
+          "lang": "en",
+          "platform": "google",
+          "textToSpeech": "Hello, I am Thomas the Tank Engine Facts application."
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "en",
+          "platform": "google",
+          "textToSpeech": "Ask me questions about the friendly engines from Sodor island."
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "de",
+          "platform": "google",
+          "textToSpeech": "Guten Tag, ich bin Thomas, die Tank Engine Facts-Anwendung."
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "de",
+          "platform": "google",
+          "textToSpeech": "Fragen Sie mich nach den freundlichen Zügen von der Insel Sodor."
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "id",
+          "platform": "google",
+          "textToSpeech": "Halo, saya aplikasi fakta Thomas the Tank Engine."
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "id",
+          "platform": "google",
+          "textToSpeech": "Silahkan tanya saya tentang kereta-kereta bersahabat dari pulau Sodor."
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "ja",
+          "platform": "google",
+          "textToSpeech": "こんにちは、私はトーマス・タンク・エンジン事実のアプリケーションです。"
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "ja",
+          "platform": "google",
+          "textToSpeech": "ソドー島のフレンドリーなエンジンについて質問してください。"
+        }
+      
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

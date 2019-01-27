@@ -1,0 +1,37 @@
+{
+  "name": "Thomas - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about Thomas. (This article is about the character. For the TV show the character appears in, see Thomas &amp; Friends.) Thomas the Tank Engine is a small fictional steam locomotive in The Railway Series books by the Reverend Wilbert Awdry and his son, Christopher. He became the most popular character in the series, and is the title character in the accompanying television spin-off series, Thomas &amp; Friends. Thomas is a steam engine and has a number 1 painted on his side. All of the locomotives in The Railway Series were based on prototypical engines; Thomas has origins in the E2 Class designed by Lawson Billinton in 1913. Thomas first appeared in 1946 in the second book in the series, Thomas the Tank Engine, and was the focus of the four short stories contained within. Thomas&#39; best friends are Percy and Toby. In 1979, the British writer&#x2F;producer Britt Allcroft came across the books, and arranged a deal to bring the stories to life as the TV series Thomas the Tank Engine and Friends (later simplified to Thomas &amp; Friends). The program became an award-winning hit around the world, with a vast range of spin-off commercial products."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

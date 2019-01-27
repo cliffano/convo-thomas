@@ -1,0 +1,73 @@
+{
+  "name": "James - number",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "James's number is 5."
+          ,
+          
+            "James is number 5."
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": [
+          
+            "James-Nummer ist 5"
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "id",
+          "speech": [
+          
+            "James memiliki nomor 5"
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": [
+          
+            "James番号は5"
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

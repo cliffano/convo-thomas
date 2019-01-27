@@ -1,0 +1,73 @@
+{
+  "name": "Sir - number",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Sir's number is ."
+          ,
+          
+            "Sir is number ."
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": [
+          
+            "Sir-Nummer ist"
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "id",
+          "speech": [
+          
+            "Sir memiliki nomor"
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": [
+          
+            "Sir番号は"
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

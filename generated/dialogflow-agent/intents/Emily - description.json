@@ -1,0 +1,37 @@
+{
+  "name": "Emily - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about Emily. Emily the Stirling Engine is a steam locomotive from the television series Thomas &amp; Friends. She was the first female steam engine to be featured in the television series (Mavis was the first female Diesel engine and female engine), and became a member of the &quot;Steam Team&quot;, as the eight core characters of the series which she became in Calling All Engines!, and appeared in lots of episodes more often. She is also the only female in the Steam Team. She is painted dark green and has two large driving wheels and a shiny brass safety valve cover. She first appeared in the Series 7 episode &quot;Emily&#39;s New Coaches&quot;. When she first arrived on the Island of Sodor, she took Thomas&#39;s coaches Annie and Clarabel by mistake, much to Thomas&#39; dismay. However, after she rescued Thomas and Oliver from an accident, Thomas forgave her and The Fat Controller (Sir Topham Hatt) rewarded her with two coaches of her own. Emily acts as a sisterly figure to the other engines. She is very kind and friendly and always sensitive to the other engines&#39; feelings. If she wrongs someone, knowingly or not, she is quick to apologize. She speaks with a Scottish accent in the U.K. narration of the series, while in the U.S. narration, she speaks with an American accent. Emily is the only member of the Steam Team who does not appear in The Railway Series—the series of books that have formed the basis of the television series, and she is also the only member in the Steam Team who was not created by the Rev. W. Awdry and his son, Christopher. As well as this, she is the only Steam Team member who did not make their first appearance in the first series. In the more recent (CGI) stories, from Hero of the Rails onwards, Emily is voiced by Teresa Gallagher (U.K.) and Jules de Jongh (U.S.)."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

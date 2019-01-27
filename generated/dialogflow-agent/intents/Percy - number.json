@@ -1,0 +1,73 @@
+{
+  "name": "Percy - number",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Percy's number is 6."
+          ,
+          
+            "Percy is number 6."
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": [
+          
+            "Percy-Nummer ist 6"
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "id",
+          "speech": [
+          
+            "Percy memiliki nomor 6"
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": [
+          
+            "Percy番号は6"
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

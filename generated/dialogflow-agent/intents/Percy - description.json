@@ -1,0 +1,37 @@
+{
+  "name": "Percy - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about Percy. Percy the Small Engine is a fictional anthropomorphic steam engine from The Railway Series of children&#39;s books written by the Reverend Wilbert Vere Awdry and his son, Christopher Awdry. Percy also appears in the spin-off television series Thomas &amp; Friends. Percy lives on the Island of Sodor with many other locomotives, including Thomas the Tank Engine, Gordon the Big Engine and Henry the Green Engine. He is the smallest, youngest and probably cheekiest, of the principal steam engine characters. He carries the number 6 on his bunker. The Fat Controller brought him to Sodor when there was an engine strike due to a shortage of shunting engines. The bigger engines initially tried to bully him, but Percy soon showed that he was more than capable of standing up for himself. After a few years of shunting at the Big Station, the Fat Controller promoted him to goods traffic on Thomas&#39; branch line. When not pulling trucks, he can be seen pulling the post train or even taking Annie and Clarabel when Thomas is busy. Percy&#39;s best friends are Thomas and Toby. He is also known to have a great respect for Edward ever since his first appearance. He is reasonably experienced, but can still occasionally be a little naive and overconfident. In that sense, he is the perfect foil for Thomas – who can be just as headstrong. Percy&#39;s first appearance in The Railway Series was in book no. 5, Troublesome Engines, originally published in 1950. He was given his own title with book no. 11, Percy the Small Engine."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

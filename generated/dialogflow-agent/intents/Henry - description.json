@@ -1,0 +1,37 @@
+{
+  "name": "Henry - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about Henry. Henry the Green Engine is an anthropomorphic 4-6-0 steam locomotive from The Railway Series books written by the Reverend Wilbert Vere Awdry and his son, Christopher Awdry, and the spin-off children&#39;s television series, Thomas &amp; Friends. Henry lives on the fictitious Island of Sodor with many other locomotives, including Thomas the Tank Engine. He is engine number 3 on the North Western Railway, and was one of the first engines to be described, appearing in the first book. Henry is a little smaller than Gordon the Big Engine, who also appeared in the first book. Henry&#39;s first (mis-)adventure was in &quot;The Sad Story of Henry&quot;, the third story in the Railway Series book The Three Railway Engines. In this story, he went into a tunnel and refused to come out due to fears that the rain would spoil his paint. As punishment, the Fat Controller ordered that he was bricked up in the tunnel for eternity. Weeks later, he was eventually let out to help Edward pull Gordon&#39;s express train, after Gordon burst a safety valve. Henry was originally a failed prototype engine who, as the result of a small firebox (which was a similar shape to Gordon&#39;s), was often ill and a poor steamer. The Fat Controller gave him special Welsh coal, which helped. But worse was to come – Early one morning, Henry was pulling the fish express train, the Flying Kipper, when some frozen points diverted him in to a siding where he eventually crashed in to a goods train. This prompted the Fat Controller to send Henry to the engine works at Crewe so he could get a new shape and no longer need special coal. Henry has kept his so-called &quot;new shape&quot; through today. Henry was given a new firebox which gave him a similar specification to an LMS Class 5MT &quot;Black Five&quot; locomotive. This cured his illness completely. Henry now works on the main line. He can pull coaches and trucks equally well, and sometimes even hauls the Express when Gordon is not available. He is still the engine responsible for the Flying Kipper, and in the television series he also brings the post from the Mainland. He has been in the television series from the start, and in recent seasons has been identified as part of the Steam Team, the eight central characters. There have been two Railway Series books devoted to him, namely Henry the Green Engine and Henry and the Express."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

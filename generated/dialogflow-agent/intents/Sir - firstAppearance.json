@@ -1,0 +1,37 @@
+{
+  "name": "Sir - firstAppearance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Sir first appeared in &quot;Four Little Engines&quot; (Thomas and Friends, As Sir Handel),&quot;Granpuff&quot; (Thomas and Friends, As Falcon),Four Little Engines(The Railway Series)"
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

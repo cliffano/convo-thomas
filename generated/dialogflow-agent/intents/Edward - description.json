@@ -1,0 +1,37 @@
+{
+  "name": "Edward - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about Edward. Edward the Blue Engine is an anthropomorphic steam locomotive from The Railway Series children&#39;s books by the Rev W. Awdry, and the related TV Series Thomas the Tank Engine &amp; Friends. He is a blue 4-4-0 tender engine with red stripes, about the same size as James the Red Engine, and has the number 2 on his tender. Also like James, he is a mixed traffic engine, meaning that he can easily pull freight or passengers, though he prefers freight. He is one of the major characters in both the books and the television series. Edward is a kind engine, who is always keen to help a friend in need. The younger engines can always rely on him to lend a listening ear and sympathetic advice. He works hard and will always do his utmost to get a job done. However, the big engines tend to see him as old-fashioned and slow. But the smaller engines such as Thomas, Percy, Toby and Duck respect him greatly and will stick up for him at all times. It is true that he is one of the older engines on The Fat Controller&#39;s railway (indeed, he helped to build it), but he has proved time and time again that despite his age he is entirely capable of working as hard as any engine. Several of the stories revolving around him, both in the books and television series, have involved Edward proving his worth to the others. Two of the most notable were &#39;Old Iron&#39;, in which he earned himself an overhaul by capturing a runaway James, and &#39;Edward&#39;s Exploit&#39;, in which he brought home a special train despite a breakdown, caused by one of his coupling rods breaking. Edward has a branch line which he runs with BoCo, a diesel engine. Edward is equally happy with coaches or trucks, but he has also been known to help other engines with heavy loads, pull special trains and even act as a pilot engine for the Royal Train. Edward was first featured in The Three Railway Engines, Awdry&#39;s first book, in 1945. Edward featured in his own book, Edward the Blue Engine in 1954."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

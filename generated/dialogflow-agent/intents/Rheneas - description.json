@@ -1,0 +1,37 @@
+{
+  "name": "Rheneas - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about Rheneas. Rheneas is a fictional locomotive from The Railway Series by Rev. W. Awdry and the children&#39;s TV series Thomas &amp; Friends. He is one of the oldest engines on the Island of Sodor. Rheneas lives and works on the Skarloey Railway as Engine No.2, and is known as the &quot;Gallant Old Engine&quot; because he saved the railway from closure. He is Skarloey&#39;s brother."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

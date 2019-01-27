@@ -1,0 +1,37 @@
+{
+  "name": "Peter - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about Peter. Peter Sam is a steam locomotive in The Railway Series children&#39;s books by the Rev. W. Awdry and the spin-off TV series Thomas and Friends. Peter Sam lives and works on the Skarloey Railway on the Island of Sodor as engine No. 4."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

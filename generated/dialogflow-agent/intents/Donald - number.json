@@ -1,0 +1,73 @@
+{
+  "name": "Donald - number",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Donald's number is 9."
+          ,
+          
+            "Donald is number 9."
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": [
+          
+            "Donald-Nummer ist 9"
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "id",
+          "speech": [
+          
+            "Donald memiliki nomor 9"
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": [
+          
+            "Donald番号は9"
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

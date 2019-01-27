@@ -1,0 +1,37 @@
+{
+  "name": "Oliver - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about Oliver. Oliver is a fictional steam engine in The Railway Series books by the Rev. W. Awdry (and his son Christopher Awdry) and in the spin-off television series Thomas &amp; Friends. He is a Great Western 1400 Class auto tank engine who works on Duck&#39;s Branch Line (The Little Western), and lives on the Island of Sodor. In addition he has two ex-GWR Autocoaches (by the names of Isabel and Dulcie) and a GWR Brake Van by the name of Toad."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

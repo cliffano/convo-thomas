@@ -1,0 +1,37 @@
+{
+  "name": "James - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about James. James the Red Engine is a fictional anthropomorphic tender locomotive from The Railway Series children&#39;s books by the Rev. Wilbert Awdry, and the spin-off TV series Thomas &amp; Friends. He is a mixed-traffic engine, which means he is just as capable of pulling coaches as trucks. He has a 2-6-0 (&quot;Mogul&quot;) wheel arrangement and is engine number 5 on the North Western Railway, The Fat Controller&#39;s railway on the Island of Sodor. James first appeared in The Railway Series in 1946, in the book Thomas the Tank Engine. Two books in the series, no. 3 James the Red Engine and no. 28 James and the Diesel Engines, are dedicated to James. In the stories, James crashed into a field on his first day. The accident was blamed on his wooden brake blocks, which were thereafter replaced with metal ones. James has a reputation for being naughty. Some of his incidents include breaking a coach brake pipe and needing a passenger&#39;s bootlace and a newspaper to fix it, crashing into tar wagons, and spinning on the turntable although that was due to the wind rather than him. Despite his behavior, James is an engine proud of his red paint and shining brass dome, hard-working, and reliable and is generally considered to be a really useful engine. Adding to that, he also likes to stay clean. He hates pulling trucks, and believes that he should only be used to pull coaches. He thinks himself superior to the other engines, and can be shallow, boastful and arrogant – particularly to Edward, and those engines who appear old-fashioned, weak, slow or dirty. However, on a number of occasions, he has found himself forced to accept help from those he has insulted, and is ultimately apologetic. James is one of the few characters to have their own song in the TV series, the chorus of which is based on his theme music used in the early seasons. This song would be called &quot;James the Really Splendid Engine&quot;, from the show&#39;s sixth season. In the Railway Series books, James was (for a long time) one of the last engines to retain a prejudice against diesels. However, he was forced to admit that there was nothing wrong with diesels as a whole in the book James and the Diesel Engines This, however, appears to be one of the few lessons that has stuck."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

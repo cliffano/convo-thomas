@@ -1,0 +1,73 @@
+{
+  "name": "Salty - number",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Salty's number is ."
+          ,
+          
+            "Salty is number ."
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": [
+          
+            "Salty-Nummer ist"
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "id",
+          "speech": [
+          
+            "Salty memiliki nomor"
+          
+          
+          ]
+        },
+        
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": [
+          
+            "Salty番号は"
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

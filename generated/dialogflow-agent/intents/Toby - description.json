@@ -1,0 +1,37 @@
+{
+  "name": "Toby - description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+      
+      ],
+      "messages": [
+        
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+          
+            "Here is a short description about Toby. Toby the Tram Engine is a fictional anthropomorphic tram engine in The Railway Series by the Rev. W. Awdry and his son, Christopher; he also appears in the spin-off television series Thomas &amp; Friends. Toby, a tram engine with cowcatchers and sideplates, carries the North Western Railway running number seven and works on the same Ffarquhar branch line as Thomas the Tank Engine. Toby first appeared in the seventh book in The Railway Series, Toby the Tram Engine in 1952, and appeared in several subsequent books. The second book focused on Toby was the sixth of Christopher Awdry&#39;s books, Toby, Trucks and Trouble."
+          
+          
+          ]
+        }
+        
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534984467,
+  "fallbackIntent": false,
+  "events": []
+}

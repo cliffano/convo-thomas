@@ -1,0 +1,79 @@
+{
+  "name": "Fallback",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+      
+        {
+          "type": "simple_response",
+          "lang": "en",
+          "platform": "google",
+          "textToSpeech": "Sorry, I do not understand what you just said."
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "en",
+          "platform": "google",
+          "textToSpeech": "Could you perhaps say that again?"
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "de",
+          "platform": "google",
+          "textToSpeech": "Entschuldigung, ich verstehe nicht, was du gesagt hast."
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "de",
+          "platform": "google",
+          "textToSpeech": "Könntest du das Bitte wiederholen?"
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "id",
+          "platform": "google",
+          "textToSpeech": "Maaf, saya tidak mengerti yang anda katakan."
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "id",
+          "platform": "google",
+          "textToSpeech": "Bisa tolong diulang?"
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "ja",
+          "platform": "google",
+          "textToSpeech": "すみません理解不能です"
+        },
+      
+        {
+          "type": "simple_response",
+          "lang": "ja",
+          "platform": "google",
+          "textToSpeech": "おそらくそれをもう一度言うことができますか?"
+        }
+      
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}
