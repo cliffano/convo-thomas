@@ -9,6 +9,16 @@ Convo Thomas is a [Convo](https://github.com/cliffano/convo) application which p
 
 This application is an interactive voice interface for children to learn about words, numbers, and names from Thomas & Friends universe.
 
+For example, the child can ask the question:
+
+    What is Thomas' number?
+
+and Google Assistant would answer:
+
+    Thomas' number is 1.
+
+[![Architecture Diagram](https://raw.github.com/cliffano/convo-thomas/master/docs/architecture.jpg)](https://raw.github.com/cliffano/convo-thomas/master/docs/architecture.jpg)
+
 Usage
 -----
 
