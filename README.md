@@ -5,11 +5,11 @@
 Convo Thomas
 ------------
 
-Convo Thomas is a [Convo](https://github.com/cliffano/convo) application which provides facts on the engines from [Thomas & Friends](https://www.thomasandfriends.com/en-us) children books and TV series.
+Convo Thomas is a [Convo](https://github.com/cliffano/convo) agent for Thomas the Tank Engine Facts, an application which provides facts on the engines from [Thomas & Friends](https://www.thomasandfriends.com/en-us) children books and TV series.
 
 This application is an interactive voice interface for children to learn about words, numbers, and names from Thomas & Friends universe.
 
-For example, the child can ask the question:
+For example, the children can ask the question:
 
     What is Thomas' number?
 
