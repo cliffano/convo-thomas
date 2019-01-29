@@ -41,6 +41,8 @@ Publish the package to Dialogflow:
 Configuration
 -------------
 
+The engines along with the questions and answers can be tweaked by modifying the following configuration files:
+
 ### DBpedia resources
 
 The DBpedia resource names for the engines in Thomas & Friends are configured in [conf/dbpedia-resources-engines]() , which is a plain text file with a single resource name on each line.
@@ -55,15 +57,9 @@ The topics for Convo Thomas are configured in [conf/topics.json]() .
 
 | Key | Description |
 |-----|-------------|
-| <topic>.dbpedia.property | The DBpedia resource's triple predicate's nominal value |
-| <topic>.convo.queries.messages.<lang> | A list of messages which Dialogflow agent will respond to for a given topic |
-| <topic>.convo.queries.replies.<lang> | A list of responses which Dialogflow agent will use to respond to the corresponding message for a given topic |
-
-### Convo environment
-
-| Key | Description |
-|-----|-------------|
-| convo.token | Convo token to be used on Dialogflow agent and middleware (Note: this is not used in Convo Thomas due to not having webhook) |
+| `<topic>.dbpedia.property` | The DBpedia resource's triple predicate's nominal value |
+| `<topic>.convo.queries.messages.<lang>` | A list of messages which Dialogflow agent will respond to for a given topic |
+| `<topic>.convo.queries.replies.<lang>` | A list of responses which Dialogflow agent will use to respond to the corresponding message for a given topic |
 
 Colophon
 --------
@@ -72,4 +68,3 @@ Related Projects:
 
 * [Convo](http://github.com/cliffano/convo) - Specification based voice and text conversation app
 * [Convo Generator](http://github.com/cliffano/convo-generator) - Convo agent and middleware generator
-* [convo-node](http://github.com/cliffano/convo-node) - node.js utility module for Convo voice framework
