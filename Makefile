@@ -26,9 +26,9 @@ build:
 package: stage build
 	cd generated/dialogflow-agent/ && zip ../../stage/convo-thomas-dialogflow-agent.zip -r .
 
-publish:
+deploy:
 	mkdir -p stage/dialogflow-agent/
 	cd stage/dialogflow-agent/ && unzip ../convo-thomas-dialogflow-agent.zip
 	dialogflow-cli import --credentials ./conf/credentials.json stage/dialogflow-agent/
 
-.PHONY: ci clean deps lint config build package stage publish
+.PHONY: ci clean deps lint config build package stage deploy
