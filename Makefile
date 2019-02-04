@@ -8,7 +8,7 @@ clean:
 	rm -rf generated stage
 
 stage:
-	mkdir -p generated/ stage/data/engines/
+	mkdir -p generated/dialogflow-agent/ stage/data/engines/
 
 deps:
 	npm install async@2.6.1 mustache@3.0.1 rdf-parser-rdfxml@0.3.1 wget-improved@3.0.2
