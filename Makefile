@@ -1,8 +1,6 @@
 ci: clean tools deps lint config gen package
 
-# deps-local is called twice here because the first one is needed to generate the agent and middleware
-# while the second one is used for overwriting the node modules resolved from the generated middleware
-gen-local: clean deps-local gen deps-local deploy
+gen-local: clean deps-local gen
 
 clean:
 	rm -rf generated stage
@@ -12,7 +10,7 @@ stage:
 
 deps:
 	npm install async@2.6.1 mustache@3.0.1 rdf-parser-rdfxml@0.3.1 wget-improved@3.0.2
-	npm install convo-node@0.0.3 convo-jenkins-helper@0.0.2 generator-convo@0.0.4
+	npm install convo-node@0.0.3 convo-jenkins-helper@0.0.2 generator-convo@0.0.5
 
 deps-local:
 	cd ../convo-node && npm link

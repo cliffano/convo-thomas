@@ -721,7 +721,7 @@
         {
           "locale": "en",
           "texts": [
-            "Gordon was created by Wilbert Awdry,Christopher Awdry"
+            "Gordon was created by Christopher Awdry,Wilbert Awdry"
           ]
         }
       ]
@@ -1123,7 +1123,7 @@
         {
           "locale": "en",
           "texts": [
-            "Henry first appeared in &quot;The Sad Story of Henry&quot; (Thomas and Friends),The Three Railway Engines(The Railway Series)"
+            "Henry first appeared in The Three Railway Engines(The Railway Series),&quot;The Sad Story of Henry&quot; (Thomas and Friends)"
           ]
         }
       ]
@@ -1295,7 +1295,7 @@
         {
           "locale": "en",
           "texts": [
-            "James first appeared in &quot;Thomas &amp; the Breakdown Train&quot; (Thomas and Friends),Thomas the Tank Engine(The Railway Series)"
+            "James first appeared in Thomas the Tank Engine(The Railway Series),&quot;Thomas &amp; the Breakdown Train&quot; (Thomas and Friends)"
           ]
         }
       ]
@@ -2843,7 +2843,7 @@
         {
           "locale": "en",
           "texts": [
-            "Skarloey first appeared in Four Little Engines(The Railway Series),&quot;Four Little Engines&quot; (Thomas and Friends)"
+            "Skarloey first appeared in &quot;Four Little Engines&quot; (Thomas and Friends),Four Little Engines(The Railway Series)"
           ]
         }
       ]
@@ -2957,7 +2957,7 @@
         {
           "locale": "en",
           "texts": [
-            "Thomas was created by Christopher Awdry,Wilbert Awdry"
+            "Thomas was created by Wilbert Awdry,Christopher Awdry"
           ]
         }
       ]
@@ -3015,7 +3015,7 @@
         {
           "locale": "en",
           "texts": [
-            "Thomas first appeared in &quot;Thomas &amp; Gordon&quot; (Thomas &amp; Friends),Thomas the Tank Engine(The Railway Series)"
+            "Thomas first appeared in Thomas the Tank Engine(The Railway Series),&quot;Thomas &amp; Gordon&quot; (Thomas &amp; Friends)"
           ]
         }
       ]
